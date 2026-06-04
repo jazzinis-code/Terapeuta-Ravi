@@ -490,21 +490,32 @@
 
     .trust-card {
       background: #fff;
-      border-radius: 16px;
-      padding: 2rem;
-      text-align: center;
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      text-align: left;
       transition: var(--transition);
-      border: 1px solid rgba(198, 167, 122, 0.15);
+      border: 1px solid rgba(198, 167, 122, 0.12);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
     }
 
     .trust-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(139, 30, 36, 0.08);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(139, 30, 36, 0.06);
     }
 
     .trust-card__icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      width: 28px;
+      height: 28px;
+      margin-bottom: 1.25rem;
+      color: #C6A77A;
+    }
+
+    .trust-card__icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: #C6A77A;
+      stroke-width: 1.5;
+      fill: none;
     }
 
     .trust-card__title {
@@ -724,22 +735,32 @@
     }
 
     .metodo-card {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 16px;
-      padding: 2rem;
-      text-align: center;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      text-align: left;
       transition: var(--transition);
     }
 
     .metodo-card:hover {
-      background: rgba(255,255,255,0.12);
-      transform: translateY(-4px);
+      background: rgba(255,255,255,0.08);
+      transform: translateY(-3px);
     }
 
     .metodo-card__icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      width: 28px;
+      height: 28px;
+      margin-bottom: 1.25rem;
+      color: #D6B38A;
+    }
+
+    .metodo-card__icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: #D6B38A;
+      stroke-width: 1.5;
+      fill: none;
     }
 
     .metodo-card__title {
@@ -870,22 +891,33 @@
     }
 
     .differential-card {
-      text-align: center;
-      padding: 2rem 1.5rem;
-      border-radius: 16px;
+      text-align: left;
+      padding: 1.75rem 1.5rem;
+      border-radius: 12px;
       background: #fff;
-      border: 1px solid rgba(198, 167, 122, 0.15);
+      border: 1px solid rgba(198, 167, 122, 0.12);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
       transition: var(--transition);
     }
 
     .differential-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(139, 30, 36, 0.06);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(139, 30, 36, 0.06);
     }
 
     .differential-card__icon {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      width: 28px;
+      height: 28px;
+      margin-bottom: 1.25rem;
+      color: #C6A77A;
+    }
+
+    .differential-card__icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: #C6A77A;
+      stroke-width: 1.5;
+      fill: none;
     }
 
     .differential-card__title {
@@ -1205,32 +1237,32 @@
       </div>
       <div class="trust-grid">
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">🔒</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
           <h3 class="trust-card__title">Sigilo</h3>
           <p class="trust-card__text">Tudo o que é compartilhado no espaço terapêutico permanece protegido por sigilo absoluto.</p>
         </div>
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">👂</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8.5a6.5 6.5 0 0 1 13 0c0 6-6 5.5-6 11"/><circle cx="13" cy="22" r="1"/></svg></div>
           <h3 class="trust-card__title">Escuta sem julgamento</h3>
           <p class="trust-card__text">Um espaço livre de julgamentos onde você pode se expressar com autenticidade e liberdade.</p>
         </div>
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">🤝</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
           <h3 class="trust-card__title">Respeito aos limites</h3>
           <p class="trust-card__text">Cada processo respeita o seu tempo, seus limites e sua individualidade.</p>
         </div>
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">⚖️</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="21"/><polyline points="4 7 12 3 20 7"/><path d="M4 7l-1 7h6L8 7"/><path d="M20 7l-1 7h-6l1-7"/></svg></div>
           <h3 class="trust-card__title">Ética terapêutica</h3>
           <p class="trust-card__text">Conduta profissional pautada por princípios éticos rigorosos e responsabilidade.</p>
         </div>
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">🏡</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
           <h3 class="trust-card__title">Ambiente seguro</h3>
           <p class="trust-card__text">Espaço físico reservado, acolhedor e preparado para o seu conforto e privacidade.</p>
         </div>
         <div class="trust-card fade-up">
-          <div class="trust-card__icon">📋</div>
+          <div class="trust-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></div>
           <h3 class="trust-card__title">Orientação responsável</h3>
           <p class="trust-card__text">Direcionamento honesto e cuidadoso, com foco no seu bem-estar integral.</p>
         </div>
@@ -1401,32 +1433,32 @@
       </p>
       <div class="metodo-grid">
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">👂</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8.5a6.5 6.5 0 0 1 13 0c0 6-6 5.5-6 11"/><circle cx="13" cy="22" r="1"/></svg></div>
           <h3 class="metodo-card__title">Escuta</h3>
           <p class="metodo-card__text">Escuta ativa e profunda como base de todo o processo terapêutico.</p>
         </div>
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">🧘</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg></div>
           <h3 class="metodo-card__title">Presença</h3>
           <p class="metodo-card__text">Estar plenamente presente no momento, sem pressa e sem julgamento.</p>
         </div>
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">🫀</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
           <h3 class="metodo-card__title">Consciência Corporal</h3>
           <p class="metodo-card__text">O corpo como caminho para o autoconhecimento e a integração emocional.</p>
         </div>
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">🛡️</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
           <h3 class="metodo-card__title">Respeito aos Limites</h3>
           <p class="metodo-card__text">Todo processo respeita o ritmo e os limites individuais de cada pessoa.</p>
         </div>
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">⚖️</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="3" x2="12" y2="21"/><polyline points="4 7 12 3 20 7"/><path d="M4 7l-1 7h6L8 7"/><path d="M20 7l-1 7h-6l1-7"/></svg></div>
           <h3 class="metodo-card__title">Ética Terapêutica</h3>
           <p class="metodo-card__text">Conduta profissional rigorosa, com responsabilidade e transparência.</p>
         </div>
         <div class="metodo-card fade-up">
-          <div class="metodo-card__icon">🌱</div>
+          <div class="metodo-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22c1.25-1.25 2.5-3 4-4.5C8.5 15 11 14 14 14c3 0 6-2 7-5 .5-1.5.5-3 0-4.5-1-1-3-1.5-5-1-3 1-5.5 3.5-7 7-1 2-1.5 4.5-1 7"/><path d="M2 22l10-10"/></svg></div>
           <h3 class="metodo-card__title">Desenvolvimento Humano</h3>
           <p class="metodo-card__text">Foco no crescimento integral e na expansão da consciência de si.</p>
         </div>
@@ -1505,32 +1537,32 @@
       </div>
       <div class="differentials-grid">
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">📊</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
           <h3 class="differential-card__title">6.500+ atendimentos</h3>
           <p class="differential-card__text">Anos de experiência clínica com milhares de pessoas atendidas.</p>
         </div>
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">🎓</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/></svg></div>
           <h3 class="differential-card__title">100+ alunos formados</h3>
           <p class="differential-card__text">Formação de profissionais que atuam com ética e competência.</p>
         </div>
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">💡</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
           <h3 class="differential-card__title">Método próprio</h3>
           <p class="differential-card__text">O Método 5 Sentidos integra diferentes saberes em uma abordagem única.</p>
         </div>
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">🌍</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
           <h3 class="differential-card__title">Experiência internacional</h3>
           <p class="differential-card__text">Formação e vivências em diferentes contextos culturais e terapêuticos.</p>
         </div>
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">🤝</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17a4 4 0 0 0 4-4V7"/><path d="M7 7v6a4 4 0 0 0 8 0"/><line x1="3" y1="7" x2="7" y2="7"/><line x1="17" y1="7" x2="21" y2="7"/></svg></div>
           <h3 class="differential-card__title">Postura ética</h3>
           <p class="differential-card__text">Trabalho pautado por princípios éticos rigorosos e transparência total.</p>
         </div>
         <div class="differential-card fade-up">
-          <div class="differential-card__icon">✨</div>
+          <div class="differential-card__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="7"/><circle cx="15" cy="12" r="7"/></svg></div>
           <h3 class="differential-card__title">Atendimento co-criado</h3>
           <p class="differential-card__text">Cada processo é construído junto com a pessoa, respeitando sua singularidade.</p>
         </div>
